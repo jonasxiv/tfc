@@ -47,7 +47,7 @@
 				margin-top: 6px;
 				cursor: pointer;
 				display: inline-block;
-				background: center / cover no-repeat url(img/v2/but.png);
+				background: center / contain no-repeat url(img/v2/but.png);
 				margin-left: 260px;
 			}
 			#fazte_button:hover{
@@ -59,7 +59,7 @@
 					background-size: 600px;
 				}
 			}
-			@media screen and (max-width: 700px) {
+			@media screen and (max-width: 320px) {
  			 	#fazte_button {
  			 		margin-left: 0;
  			 		right: 10px;
@@ -67,13 +67,17 @@
   				}
 			}	
 			@media (orientation: portrait) {
+				#content{
+					height: calc(90% - 100px);
+				}
 				#interaction{
 					height: 100px;
 					
 				}
 				#fazte_button {
-					position: absolute;
-    				margin-left: 50px;
+					margin-left: 320px;
+					width: 25%;
+					height: 40%;
     				margin-top: 15px;
 				}
 			}
