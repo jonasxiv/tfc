@@ -1,18 +1,18 @@
 @font-face{
     font-family: "Avenir";
-    src: url('Avenir-Book.otf');
+    src: url('font/Avenir-Book.otf');
     font-weight: normal;
 	font-style: normal;
 }
 @font-face{
     font-family: "Avenir";
-    src: url('Avenir-Medium.otf');
+    src: url('font/Avenir-Medium.otf');
     font-weight: bold;
 	font-style: normal;
 }
 @font-face{
     font-family: "Avenir";
-    src: url('Avenir-Heavy.otf');
+    src: url('font/Avenir-Heavy.otf');
     font-weight: bolder;
 	font-style: normal;
 }
@@ -32,7 +32,7 @@ a {
 	font-weight: bold;
 }
 
-#content-container{
+.content-container{
 	margin: 0 auto;
 	width: 1012px;
 }
