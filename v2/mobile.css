@@ -1,6 +1,5 @@
 body{
-	width: 100vw;
-	position: absolute;
+	position: inherit;
 }
 
 .content-container-mobile{
