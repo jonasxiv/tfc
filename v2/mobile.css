@@ -1,3 +1,8 @@
+body{
+	width: 100vw;
+	position: absolute;
+}
+
 .content-container-mobile{
 	margin: 0 auto;
 }
