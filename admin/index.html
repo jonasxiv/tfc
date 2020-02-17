@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+		<script type="text/javascript" src="admin.js"></script>
+		<title>TFC Website Admin Portal</title>
+	</head>
+	<body onload="fetchNews()">
+		<h2>TFC Website Admin Portal</h2>
+		<h4>News list:</h4>
+		<div id="news"></div>
+
+		<br>
+
+		<h4>Create News:</h4><br>
+		Titulo:<input type="text" id="create-title"/><br>
+		Texto:<input type="text" id="create-text"/><br>
+		Link:<input type="text" id="create-link"/><br>
+		<button onclick="createNews()">Criar</button>
+	</body>
+</html>
