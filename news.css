@@ -1,0 +1,32 @@
+/* NEWS */
+.news-info{
+	width: 50%;
+}
+
+.news-img{
+	width: 50%;
+}
+
+.news-title{
+	font-size: 36px;
+	color: #23408e;
+	font-weight: bolder;
+}
+
+.news-date{
+	color: #00e9af;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.news-type{
+	color: #23408e;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.news-body{
+	color: black;
+	font-size: 16px;
+}

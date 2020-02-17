@@ -1,0 +1,61 @@
+body{
+	position: inherit;
+}
+
+.content-container-mobile{
+	margin: 0 auto;
+}
+
+#main-menu{
+	margin-top: 30px;
+}
+
+#menu-icon{
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	cursor: pointer;
+	filter: invert();
+}
+
+#menu-mobile{
+	color: white;
+	background-color: #23408e;
+	position: fixed;
+	top:0;
+	left:0;
+	height:100vh;
+	width:75vw;
+	max-width: 300px;
+	display: none;
+	padding-top: 60px;
+}
+
+#menu-mobile-close{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+	filter: invert();
+}
+
+.menu-mobile-item{
+	padding: 15px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#banner-container{
+	padding: 80px 0 0 0;
+}
+
+#footer-bottom{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section1{
+	padding: 0 20px;
+}
